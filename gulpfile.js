@@ -8,13 +8,13 @@ function cleanDist(callback) {
 }
 
 function copyFiles(callback) {
-  return src('src/*')
+  return src('src/**/*')
     .pipe(plumber())
     .pipe(dest('dist'));
 }
 
 function watchCopyFiles(callback) {
-  watch(['src/*'], series(cleanDist, copyFiles));
+  watch(['src/**/*'], series(cleanDist, copyFiles));
 }
 
 task('watch', watchCopyFiles);
