@@ -7,17 +7,17 @@ function cleanDist(callback) {
   return src('dist/*').pipe(clean());
 }
 
-function copyJsonFiles(callback) {
-  return src('src/**/*.json')
+function copyFiles(callback) {
+  return src('src/*')
     .pipe(plumber())
     .pipe(dest('dist'));
 }
 
-function watchCopyJsonFiles(callback) {
-  watch(['src/**/*.json'], series(cleanDist, copyJsonFiles));
+function watchCopyFiles(callback) {
+  watch(['src/*'], series(cleanDist, copyFiles));
 }
 
-task('watch', watchCopyJsonFiles);
+task('watch', watchCopyFiles);
 task('clean', cleanDist);
 
-exports.default = series(cleanDist, copyJsonFiles);
+exports.default = series(cleanDist, copyFiles);
