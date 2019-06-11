@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp watch",
+    "gulp:watch": "gulp watch",
+    "server:start": "http-server dist --cors='*'",
+    "start": "concurrently 'npm run gulp:watch' 'npm run server:start'",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-cli": "^2.2.0",
-    "gulp-plumber": "^1.2.1"
+    "gulp-plumber": "^1.2.1",
+    "http-server": "^0.11.1"
   }
 }
