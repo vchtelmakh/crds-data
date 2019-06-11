@@ -7,7 +7,7 @@
   },
   "content": [
     {
-      "title": "Watch, Listen, Read [Int]",
+      "title": "Watch, Listen, Read [int]",
       "description": "Videos, music, articles and podcasts",
       "background": "//crds-media.imgix.net/...",
       "children": [
