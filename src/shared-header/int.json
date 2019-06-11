@@ -5,9 +5,9 @@
     "okta_client_id": "0oahgpg7elMxVJedi0h7",
     "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
-  "content": [
+  "nav": [
     {
-      "title": "Watch, Listen, Read [int]",
+      "title": "Watch, Listen, Read [Int]",
       "description": "Videos, music, articles and podcasts",
       "background": "//crds-media.imgix.net/...",
       "children": [
@@ -325,6 +325,42 @@
             "automation-id": "sh-support-jobs"
           }
         ]
+      ]
+    }
+  ],
+  "give": [
+    {
+      "title": "Give [Demo]",
+      "children": [
+        {
+          "title": "Give Now",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-give-now"
+        },
+        {
+          "title": "My giving",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-my-giving"
+        }
+      ]
+    },
+    {
+      "title": "About giving",
+      "children": [
+        {
+          "title": "Why Give",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-why-give"
+        },
+        {
+          "title": "Other Ways",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-other-ways"
+        }
       ]
     }
   ]
