@@ -1,4 +1,4 @@
-{
+
   "config": {
     "mp_access_token_cookie": "intsessionId",
     "mp_refresh_token_cookie": "intrefreshToken",
