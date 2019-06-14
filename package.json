@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "server:start": "http-server dist --cors='*'",
-    "start": "echo \"Error: no start specified\" && exit 1",
+    "start": "concurrently 'npm run server:start' 'npm run watch'",
     "build": "node ./bin/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "src/**/*"
   },
   "author": "",
   "license": "MIT",
@@ -18,6 +22,7 @@
     "glob": "^7.1.4",
     "http-server": "^0.11.1",
     "mustache": "^3.0.1",
+    "npm-watch": "^0.6.0",
     "rimraf": "^2.6.3"
   }
 }
