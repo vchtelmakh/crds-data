@@ -1,2 +1,4 @@
+.envrc
+.vscode/
 dist/
 node_modules/
