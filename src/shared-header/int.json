@@ -6,9 +6,9 @@
     "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
   "promos": "{{{ promos.int }}}",
-  "content": [
+  "nav": [
     {
-      "title": "Watch, Listen, Read [int]",
+      "title": "Watch, Listen, Read [Int]",
       "description": "Videos, music, articles and podcasts",
       "background": "//crds-media.imgix.net/...",
       "children": [
@@ -154,8 +154,18 @@
       "automation-id": "sh-kids-students-612",
       "children": [
         [
-          { "title": "All Locations", "path": "#", "top_level": true, "automation-id": "sh-all-locations" },
-          { "title": "Crossroads Anywhere", "path": "#", "top_level": true, "automation-id": "sh-crossroads-anywhere" }
+          {
+            "title": "All Locations",
+            "path": "#",
+            "top_level": true,
+            "automation-id": "sh-all-locations"
+          },
+          {
+            "title": "Crossroads Anywhere",
+            "path": "#",
+            "top_level": true,
+            "automation-id": "sh-crossroads-anywhere"
+          }
         ],
         "Cincinnati Area",
         [
@@ -296,7 +306,11 @@
             "path": "#",
             "automation-id": "sh-support-baptism"
           },
-          { "title": "Weddings", "path": "#", "automation-id": "sh-support-weddings" },
+          {
+            "title": "Weddings",
+            "path": "#",
+            "automation-id": "sh-support-weddings"
+          },
           {
             "title": "Funerals",
             "path": "#",
@@ -328,5 +342,41 @@
         ]
       ]
     }
-  ]
+  ],
+
+  "give": {
+    "background_img": "https://crds-media.imgix.net/6sNxa1MWhMOfjhAB47yTCa/0acf1af4109f23abc0199b1e34abeb7a/give-bg_2x.jpg?auto=format%2Ccompress",
+    "title": "Give",
+    "children": [
+      [
+        {
+          "title": "Give Now",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-give-now"
+        },
+        {
+          "title": "My giving",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-my-giving"
+        }
+      ],
+      "About giving",
+      [
+        {
+          "title": "Why Give",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-why-give"
+        },
+        {
+          "title": "Other Ways",
+          "path": "",
+          "top_level": true,
+          "automation-id": "sh-other-ways"
+        }
+      ]
+    ]
+  }
 }
