@@ -5,7 +5,14 @@ const glob = require('glob');
 const mustache = require('mustache');
 const rimraf = require('rimraf');
 
+const cfAccessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
+const cfSpaceId = process.env.CONTENTFUL_SPACE_ID;
 const dest = './dist';
+const envMap = {
+  int: 'int',
+  demo: 'demo',
+  prod: 'master'
+};
 const src = './src';
 
 class BuildRunner {
@@ -23,27 +30,13 @@ class BuildRunner {
    */
   getContentBlocks() {
     if (!this.config.promos) this.config.promos = {};
-    const cfAccessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
-    const cfSpaceId = process.env.CONTENTFUL_SPACE_ID;
-    const cfClients = {
-      int: contentful.createClient({
-        accessToken: cfAccessToken,
-        environment: 'int',
-        space: cfSpaceId
-      }),
-      demo: contentful.createClient({
-        accessToken: cfAccessToken,
-        environment: 'demo',
-        space: cfSpaceId
-      }),
-      prod: contentful.createClient({
-        accessToken: cfAccessToken,
-        environment: 'master',
-        space: cfSpaceId
-      })
-    };
-    const promises = Object.keys(cfClients).map(env => {
-      return cfClients[env]
+    const promises = Object.keys(envMap).map(env => {
+      return contentful
+        .createClient({
+          accessToken: cfAccessToken,
+          environment: envMap[env],
+          space: cfSpaceId
+        })
         .getEntry(process.env[`PROMO_ID_${env.toUpperCase()}`])
         .then(entry => {
           const compressedContent = entry.fields.content.replace(/(\r\n|\n|\r)/gm, '');
