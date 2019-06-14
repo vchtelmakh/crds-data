@@ -342,6 +342,7 @@
       ]
     }
   ],
+
   "give": {
     "background_img": "https://crds-media.imgix.net/6sNxa1MWhMOfjhAB47yTCa/0acf1af4109f23abc0199b1e34abeb7a/give-bg_2x.jpg?auto=format%2Ccompress",
     "title": "Give",
@@ -360,8 +361,8 @@
           "automation-id": "sh-my-giving"
         }
       ],
+      "About giving",
       [
-        "About giving",
         {
           "title": "Why Give",
           "path": "",
