@@ -16,6 +16,9 @@ glob(`${src}/**/*`, {}, (error, files) => {
     const content = fs.readFileSync(file, 'utf8');
     const output = mustache.render(content, this.config);
 
+    const ext = file.split('.').pop();
+    if (ext.toLowerCase() === 'json') JSON.parse(output);
+
     const fileDest = file.replace(src, dest);
     fs.mkdirSync(fileDest.substr(0, fileDest.lastIndexOf('/')), { recursive: true });
     fs.writeFileSync(fileDest, output);
