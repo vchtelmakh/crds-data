@@ -378,7 +378,7 @@
     ]
   },
   "profile": {
-    "title": "Hello",
+    "title": "Hello %user_name%",
     "children": [
       [
         {
