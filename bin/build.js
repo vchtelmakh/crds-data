@@ -21,17 +21,20 @@ class BuildRunner {
    * object.
    */
   constructor() {
-    const customConfig = JSON.parse(fs.readFileSync('config.json', 'utf8'));
-    this.config = Object.assign({ ...process.env }, customConfig);
+    this.config = Object.assign({ ...process.env }, { promos: {} });
   }
 
   /**
    * Retrieve content block from Contentful and inject into config object.
    */
   getContentBlocks() {
-    if (!this.config.promos) this.config.promos = {};
-    const promises = Object.keys(envMap).map(env => {
-      return contentful
+    /**
+     * Loop through each environment in the envMap (top of file), and grab the
+     * appropriate entry from Contentful. Then escape the content field and save
+     * it to the promos config object.
+     */
+    const promises = Object.keys(envMap).map(env =>
+      contentful
         .createClient({
           accessToken: cfAccessToken,
           environment: envMap[env],
@@ -42,9 +45,12 @@ class BuildRunner {
           const compressedContent = entry.fields.content.replace(/(\r\n|\n|\r)/gm, '');
           this.config.promos[env] = escape(compressedContent);
         })
-        .catch(err => console.error(err));
-    });
-
+        .catch(err => console.error(err))
+    );
+    /**
+     * Returns a promise that waits for all the contentful promises to complete
+     * prior to resolving.
+     */
     return new Promise((resolve, reject) => {
       Promise.all(promises)
         .then(() => resolve())
