@@ -82,7 +82,13 @@ class BuildRunner {
        * its invalid JSON.
        */
       const ext = file.split('.').pop();
-      if (ext.toLowerCase() === 'json') JSON.parse(output);
+      if (ext.toLowerCase() === 'json') {
+        try {
+          JSON.parse(output);
+        } catch {
+          process.exit(1);
+        }
+      }
       /**
        * Write the file to its destination, making sure the directory exists.
        */
