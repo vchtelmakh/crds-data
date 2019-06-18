@@ -34,32 +34,32 @@
     "path": "https://www.crossroads.net/media/articles",
     "data-automation-id": "sh-articles",
     "title": "Articles"
-  }
+  },
   {
     "path": "https://www.crossroads.net/media/music",
     "data-automation-id": "sh-music",
     "title": "Music"
-  }
+  },
   {
     "path": "https://www.crossroads.net/media/podcasts",
     "data-automation-id": "sh-podcasts",
     "title": "Podcasts"
-  }
+  },
   {
     "path": "https://www.crossroads.net/media/series",
     "data-automation-id": "sh-series",
     "title": "Series"
-  }
+  },
   {
     "path": "https://www.crossroads.net/media/videos",
     "data-automation-id": "sh-videos",
     "title": "Videos"
-  }
+  },
   {
     "path": "#",
     "data-automation-id": "sh-community-stories",
     "title": "Community Stories"
-  }
+  },
   {
     "path": "#",
     "data-automation-id": "sh-subscribe",
