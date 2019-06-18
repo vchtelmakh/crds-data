@@ -85,7 +85,8 @@ class BuildRunner {
       if (ext.toLowerCase() === 'json') {
         try {
           JSON.parse(output);
-        } catch {
+        } catch (error) {
+          console.error(`Error in file: ${file}\n${error}`);
           process.exit(1);
         }
       }
