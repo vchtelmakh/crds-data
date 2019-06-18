@@ -136,7 +136,7 @@
             "path": "/trips/mytrips",
             "automation-id": "sh-my-trips"
           }
-        ]
+        ],
         "Volunteer",
         [
           {
@@ -167,7 +167,7 @@
             "path": "/childcare",
             "automation-id": "sh-event-childcare"
           }
-        ]
+        ],
         "Kids",
         [
           {
