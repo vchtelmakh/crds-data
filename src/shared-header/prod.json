@@ -393,6 +393,7 @@
           "path": "/me/giving"
         },
         {
+          "sign-out": true,
           "title": "Sign out",
           "automation-id": "sh-sign-out",
           "path": "javascript:void(0)"

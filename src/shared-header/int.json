@@ -5,7 +5,7 @@
     "okta_client_id": "0oahgpg7elMxVJedi0h7",
     "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
-  "promos": "{{{ promos.int }}}",
+  "promos": "{{{ promos.prod }}}",
   "nav": [
     {
       "title": "Watch, Listen, Read [Int]",
@@ -393,6 +393,7 @@
           "path": "/me/giving"
         },
         {
+          "sign-out": true,
           "title": "Sign out",
           "automation-id": "sh-sign-out",
           "path": "javascript:void(0)"
