@@ -5,7 +5,7 @@
     "okta_client_id": "0oahgpg7elMxVJedi0h7",
     "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
-  "promos": "{{{ promos.prod }}}",
+  "promos": "{{{ promos.int}}}",
   "nav": [
     {
       "title": "Watch, Listen, Read [Int]",
