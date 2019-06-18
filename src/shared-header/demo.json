@@ -5,6 +5,7 @@
     "okta_client_id": "0oahgpg7elMxVJedi0h7",
     "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
+  "promos": "{{{ promos.demo }}}",
   "nav": [
     {
       "title": "Watch, Listen, Read [Demo]",
@@ -364,7 +365,7 @@
       [
         {
           "title": "Why Give",
-          "path": "#",
+          "path": "",
           "top_level": true,
           "automation-id": "sh-why-give"
         },

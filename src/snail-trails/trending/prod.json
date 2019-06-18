@@ -1,34 +1,34 @@
 [
   "Trending [Prod]",
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/groups/",
     "data-automation-id": "sh-groups",
     "title": "Groups"
   },
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/camps/",
     "data-automation-id": "sh-camps",
     "title": "Camps"
   },
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/media/series/how-it-ends-spoiler-its-amazing/how-it-ends-week-2-real-justice",
     "data-automation-id": "sh-recent-messages",
-    "title": "recent messages"
+    "title": "Recent Messages"
   },
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/undivided/",
     "data-automation-id": "sh-undivided",
     "title": "Undivided"
   },
   {
     "path": "#",
-    "data-automation-id": "sh-lorem",
-    "title": "lorem"
+    "data-automation-id": "sh-community-stories",
+    "title": "Community Stories"
   },
   {
-    "path": "#",
-    "data-automation-id": "sh-ipsum",
-    "title": "ipsum"
+    "path": "https://www.crossroads.net/connect",
+    "data-automation-id": "sh-connect-with-people-in-your-area",
+    "title": "Connect with people in your area"
   },
   {
     "path": "#",
