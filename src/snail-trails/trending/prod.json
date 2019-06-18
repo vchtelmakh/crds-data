@@ -13,7 +13,7 @@
   {
     "path": "#",
     "data-automation-id": "sh-recent-messages",
-    "title": "recent messages"
+    "title": "Recent Messages"
   },
   {
     "path": "#",
@@ -23,12 +23,12 @@
   {
     "path": "#",
     "data-automation-id": "sh-lorem",
-    "title": "lorem"
+    "title": "Community Stories"
   },
   {
     "path": "#",
     "data-automation-id": "sh-ipsum",
-    "title": "ipsum"
+    "title": "Connect with people in your area"
   },
   {
     "path": "#",
