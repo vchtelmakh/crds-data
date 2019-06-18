@@ -21,11 +21,6 @@
     "title": "Undivided"
   },
   {
-    "path": "#",
-    "data-automation-id": "sh-community-stories",
-    "title": "Community Stories"
-  },
-  {
     "path": "https://www.crossroads.net/connect",
     "data-automation-id": "sh-connect-with-people-in-your-area",
     "title": "Connect with people in your area"

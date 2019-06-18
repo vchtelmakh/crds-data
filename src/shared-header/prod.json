@@ -69,80 +69,121 @@
             "title": "Money",
             "path": "/media/topics/money",
             "automation-id": "sh-money"
+          },
+          {
+            "title": "Relationships",
+            "path": "/media/topics/relationships",
+            "automation-id": "sh-relationships"
           }
         ]
       ]
     },
     {
-      "title": "Find Community",
+      "title": "Get Connected",
       "description": "Groups, camps, serve locally and globally, kids",
       "background": "//crds-media.imgix.net/...",
       "children": [
-        "Connect",
+        "Relationships",
         [
           {
-            "title": "Groups",
-            "path": "#",
+            "title": "All Groups",
+            "path": "/groups",
             "automation-id": "sh-connect-groups"
           },
           {
-            "title": "See who is nearby",
-            "path": "#",
-            "automation-id": "sh-connect-see-who-is-nearby"
+            "title": "My Groups",
+            "path": "/groups/search/my",
+            "automation-id": "sh-my-groups"
+          },
+          {
+            "title": "People near me",
+            "path": "/connect/?filters=At%20Home%20Groups%3D&my=0",
+            "automation-id": "sh-connect-people-near-me"
           }
         ],
         "Camps",
         [
           {
+            "title": "All Camps",
+            "path": "/camps",
+            "automation-id": "sh-camps"
+          },
+          {
             "title": "Man Camp",
-            "path": "#",
+            "path": "/mancamp",
             "automation-id": "sh-camps-man-camp"
           },
           {
             "title": "Woman Camp",
-            "path": "#",
+            "path": "/womancamp",
             "automation-id": "sh-camps-woman-camp"
           },
           {
             "title": "Couples Camp",
-            "path": "#",
+            "path": "/couplescamp",
             "automation-id": "sh-camps-couples-camp"
           }
         ],
-        "Serve",
+        "Trips",
         [
           {
-            "title": "Go",
-            "path": "#",
-            "automation-id": "sh-serve-go"
+            "title": "All Trips",
+            "path": "/reachout/go",
+            "automation-id": "sh-trips-all"
           },
           {
-            "title": "Reachout",
-            "path": "#",
-            "automation-id": "sh-serve-reachout"
-          },
-          {
-            "title": "Community Care",
-            "path": "#",
-            "automation-id": "sh-serve-community-care"
-          },
-          {
-            "title": "All service opportunities",
-            "path": "#",
-            "automation-id": "sh-serve-all-service-opportunities"
+            "title": "My Trips",
+            "path": "/trips/mytrips",
+            "automation-id": "sh-my-trips"
           }
-        ],
+        ]
+        "Volunteer",
+        [
+          {
+            "title": "Volunteer Opportunities",
+            "path": "/volunteer",
+            "automation-id": "sh-volunteer"
+          },
+          {
+            "title": "Sign up to Volunteer",
+            "path": "/serve-signup",
+            "automation-id": "sh-sign-up-to-serve"
+          },
+          {
+            "title": "Community Serving",
+            "path": "/reachout/local",
+            "automation-id": "sh-reachout-local"
+          }
+        ],         
+        "Events",
+        [
+          {
+            "title": "Event Checkin",
+            "path": "https://event-checkin.crossroads.net/events",
+            "automation-id": "sh-event-checkin"
+          },
+          {
+            "title": "Childcare (for events)",
+            "path": "/childcare",
+            "automation-id": "sh-event-childcare"
+          }
+        ]
         "Kids",
         [
           {
             "title": "Kids' Club",
-            "path": "#",
+            "path": "https://crossroadskidsclub.net/",
             "automation-id": "sh-kids-kids-club"
           },
           {
-            "title": "Students 6-12th",
-            "path": "#",
-            "automation-id": "sh-kids-students-612th"
+            "title": "Students 6-8th",
+            "path": "/middleschool",
+            "automation-id": "sh-kids-students-6-8th"
+          },
+          {
+            "title": "Students 9-12th",
+            "path": "/highschool",
+            "automation-id": "sh-kids-students-6-12th"
           }
         ]
       ]
