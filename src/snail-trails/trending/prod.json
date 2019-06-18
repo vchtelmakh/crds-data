@@ -1,12 +1,12 @@
 [
   "Trending [Prod]",
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/groups/",
     "data-automation-id": "sh-groups",
     "title": "Groups"
   },
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/camps/",
     "data-automation-id": "sh-camps",
     "title": "Camps"
   },
@@ -16,7 +16,7 @@
     "title": "Recent Messages"
   },
   {
-    "path": "#",
+    "path": "https://www.crossroads.net/undivided/",
     "data-automation-id": "sh-undivided",
     "title": "Undivided"
   },
