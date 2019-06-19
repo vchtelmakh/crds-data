@@ -8,7 +8,7 @@
   "promos": "{{{ promos.demo }}}",
   "nav": [
     {
-      "title": "Watch, Listen, Read [Demo]",
+      "title": "Watch, Listen, Read [demo]",
       "description": "Videos, music, articles and podcasts",
       "background": "//crds-media.imgix.net/...",
       "children": [
@@ -343,7 +343,6 @@
       ]
     }
   ],
-
   "give": {
     "background_img": "https://crds-media.imgix.net/6sNxa1MWhMOfjhAB47yTCa/0acf1af4109f23abc0199b1e34abeb7a/give-bg_2x.jpg?auto=format%2Ccompress",
     "title": "Give",
@@ -375,6 +374,65 @@
           "href": "",
           "top_level": true,
           "automation-id": "sh-other-ways"
+        }
+      ]
+    ]
+  },
+  "profile": {
+    "title": "Hello %user_name%",
+    "children": [
+      [
+        {
+          "title": "My account",
+          "automation-id": "sh-my-accounts",
+          "path": "/profile/personal"
+        },
+        {
+          "title": "Giving",
+          "automation-id": "sh-giving",
+          "path": "/me/giving"
+        },
+        {
+          "sign-out": true,
+          "title": "Sign out",
+          "automation-id": "sh-sign-out",
+          "path": "javascript:void(0)"
+        }
+      ],
+      "Get Involved",
+      [
+        {
+          "title": "My student's camps",
+          "automation-id": "sh-my-students-camps",
+          "path": "/mycamps"
+        },
+        {
+          "title": "Sign up to server",
+          "automation-id": "sh-sign-up-to-serve",
+          "path": "/serve/signup"
+        },
+        {
+          "title": "My groups",
+          "automation-id": "sh-my-groups",
+          "path": "/search/my"
+        },
+        {
+          "title": "My trips",
+          "automation-id": "sh-my-trips",
+          "path": "/mytrips"
+        }
+      ],
+      "Events",
+      [
+        {
+          "title": "Event check in",
+          "automation-id": "sh-event-check-in",
+          "path": "/events"
+        },
+        {
+          "title": "Childcare (For events)",
+          "automation-id": "sh-childcare",
+          "path": "/childcare"
         }
       ]
     ]
