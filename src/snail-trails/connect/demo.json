@@ -1,5 +1,5 @@
 [
-  "Connect[Prod]",
+  "Connect[Demo]",
   {
     "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=At%20Home%20Groups%3D&view=List%20View&my=0",
     "data-automation-id": "sh-alt-home-groups",
