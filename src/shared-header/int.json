@@ -136,7 +136,7 @@
             "path": "/trips/mytrips",
             "automation-id": "sh-my-trips"
           }
-        ]
+        ],
         "Volunteer",
         [
           {
@@ -154,7 +154,7 @@
             "path": "/reachout/local",
             "automation-id": "sh-reachout-local"
           }
-        ],         
+        ],
         "Events",
         [
           {
@@ -167,7 +167,7 @@
             "path": "/childcare",
             "automation-id": "sh-event-childcare"
           }
-        ]
+        ],
         "Kids",
         [
           {
