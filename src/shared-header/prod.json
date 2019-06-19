@@ -83,6 +83,14 @@
       "description": "Groups, camps, serve locally and globally, kids",
       "background": "//crds-media.imgix.net/...",
       "children": [
+        [
+          {
+            "title": "Ways to get connected",
+            "path": "/get-connected",
+            "top_level": true,
+            "automation-id": "sh-get-connected"
+          }
+        ],
         "Relationships",
         [
           {
@@ -197,13 +205,13 @@
         [
           {
             "title": "All Locations",
-            "path": "#",
+            "path": "/locations",
             "top_level": true,
             "automation-id": "sh-all-locations"
           },
           {
             "title": "Crossroads Anywhere",
-            "path": "#",
+            "path": "/live",
             "top_level": true,
             "automation-id": "sh-crossroads-anywhere"
           }
@@ -212,37 +220,37 @@
         [
           {
             "title": "East Side",
-            "path": "#",
+            "path": "/eastside",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Florence",
-            "path": "#",
+            "path": "/florence",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Mason",
-            "path": "#",
+            "path": "/mason",
             "automation-id": "sh-location-mason"
           },
           {
             "title": "Oakley",
-            "path": "#",
+            "path": "/oakley",
             "automation-id": "sh-location-oakely"
           },
           {
             "title": "Oxford",
-            "path": "#",
+            "path": "/oxford",
             "automation-id": "sh-location-oxford"
           },
           {
             "title": "Uptown",
-            "path": "#",
+            "path": "/uptown",
             "automation-id": "sh-location-uptown"
           },
           {
             "title": "West Side",
-            "path": "#",
+            "path": "/westside",
             "automation-id": "sh-location-west-side"
           }
         ],
@@ -250,35 +258,35 @@
         [
           {
             "title": "Lexington",
-            "path": "#",
+            "path": "/lexington",
             "automation-id": "sh-location-lexington"
           },
           {
             "title": "Downtown Lexington",
-            "path": "#",
+            "path": "/downtown",
             "automation-id": "sh-location-downtown-lexington"
           },
           {
             "title": "Georgetown",
-            "path": "#",
+            "path": "/georgetown",
             "automation-id": "sh-location-georgetown"
           },
           {
-            "title": "Dayton",
-            "path": "#",
-            "automation-id": "sh-location-dayton"
+            "title": "Richmond",
+            "path": "/richmond",
+            "automation-id": "sh-location-richmond"
           }
         ],
         "More in Ohio",
         [
           {
             "title": "Columbus",
-            "path": "#",
+            "path": "/columbus",
             "automation-id": "sh-location-columbus"
           },
           {
             "title": "Dayton",
-            "path": "#",
+            "path": "/dayton",
             "automation-id": "sh-location-more-dayton"
           }
         ],
@@ -286,37 +294,37 @@
         [
           {
             "title": "Blackburn Correctional Complex",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-blckburn-correctional-complex"
           },
           {
             "title": "Dayton Correctional Institution",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-dayton-correctional-institution"
           },
           {
             "title": "Lebanon Correctional Institution",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-lebanon-correctional-institution"
           },
           {
             "title": "London Correctional Institution",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-london-correctional-institution"
           },
           {
             "title": "Marion Correctional Institution",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-marion-correctional-institution"
           },
           {
             "title": "Ohio Reformatory for Women",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-ohio-reformatory-for-women"
           },
           {
             "title": "Warren Correctional Institution",
-            "path": "#",
+            "path": "/reachout/local/prison-ministry",
             "automation-id": "sh-location-warren-correctional-institution"
           }
         ]
@@ -331,12 +339,12 @@
         [
           {
             "title": "Counselors",
-            "path": "#",
+            "path": "/care/counselors/",
             "automation-id": "sh-support-counselors"
           },
           {
             "title": "Prayer",
-            "path": "#",
+            "path": "/prayer",
             "automation-id": "sh-support-counselors"
           }
         ],
@@ -344,17 +352,17 @@
         [
           {
             "title": "Baptism",
-            "path": "#",
+            "path": "/baptism",
             "automation-id": "sh-support-baptism"
           },
           {
             "title": "Weddings",
-            "path": "#",
+            "path": "/care/weddings",
             "automation-id": "sh-support-weddings"
           },
           {
             "title": "Funerals",
-            "path": "#",
+            "path": "/care/funerals",
             "automation-id": "sh-support-funerals"
           }
         ],
@@ -362,22 +370,22 @@
         [
           {
             "title": "Staff Contacts",
-            "path": "#",
+            "path": "/staffcontacts",
             "automation-id": "sh-support-staff-contacts"
           },
           {
             "title": "Ask a Question",
-            "path": "#",
+            "path": "/contactus",
             "automation-id": "sh-support-ask-a-question"
           },
           {
             "title": "Request Prayer",
-            "path": "#",
+            "path": "/prayer",
             "automation-id": "sh-support-request-prayer"
           },
           {
             "title": "Jobs",
-            "path": "#",
+            "path": "/jobs",
             "automation-id": "sh-support-jobs"
           }
         ]
@@ -391,14 +399,14 @@
     "children": [
       [
         {
-          "title": "Give Now",
-          "path": "",
+          "title": "Give now",
+          "path": "https://pushpay.com/g/crossroads",
           "top_level": true,
           "automation-id": "sh-give-now"
         },
         {
           "title": "My giving",
-          "path": "",
+          "path": "/me/giving",
           "top_level": true,
           "automation-id": "sh-my-giving"
         }
@@ -406,14 +414,14 @@
       "About giving",
       [
         {
-          "title": "Why Give",
-          "path": "",
+          "title": "Why give?",
+          "path": "/giving",
           "top_level": true,
           "automation-id": "sh-why-give"
         },
         {
-          "title": "Other Ways",
-          "path": "",
+          "title": "Other ways to give",
+          "path": "/giving/#others",
           "top_level": true,
           "automation-id": "sh-other-ways"
         }
