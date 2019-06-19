@@ -1,7 +1,7 @@
 [
   {
     "title": "One Church, Many Locations [Int]",
-    "path": "/locations/",
+    "href": "/locations/",
     "automation-id": "ftr-one-church-many-locations",
     "children": [
       {
@@ -9,37 +9,37 @@
         "children": [
           {
             "title": "East Side",
-            "path": "/eastside/",
+            "href": "/eastside/",
             "automation-id": "ftr-east-side"
           },
           {
             "title": "Florence ",
-            "path": "/florence/",
+            "href": "/florence/",
             "automation-id": "ftr-florence"
           },
           {
             "title": "Mason ",
-            "path": "/mason/",
+            "href": "/mason/",
             "automation-id": "ftr-mason"
           },
           {
             "title": "Oakley",
-            "path": "/oakley/",
+            "href": "/oakley/",
             "automation-id": "ftr-oakley"
           },
           {
             "title": "Oxford ",
-            "path": "/oxford/",
+            "href": "/oxford/",
             "automation-id": "ftr-oxford"
           },
           {
             "title": "Uptown",
-            "path": "/uptown/",
+            "href": "/uptown/",
             "automation-id": "ftr-uptown"
           },
           {
             "title": "West Side",
-            "path": "/westside/",
+            "href": "/westside/",
             "automation-id": "ftr-west-side"
           }
         ]
@@ -49,22 +49,22 @@
         "children": [
           {
             "title": "Lexington",
-            "path": "/lexington/",
+            "href": "/lexington/",
             "automation-id": "ftr-lexington"
           },
           {
             "title": "Downtown Lexington",
-            "path": "/downtownlex/",
+            "href": "/downtownlex/",
             "automation-id": "ftr-downtown-lexington"
           },
           {
             "title": "Georgetown",
-            "path": "/georgetown/",
+            "href": "/georgetown/",
             "automation-id": "ftr-georgetown"
           },
           {
             "title": "Richmond",
-            "path": "/richmond/",
+            "href": "/richmond/",
             "automation-id": "ftr-richmond"
           }
         ]
@@ -73,22 +73,22 @@
         "children": [
           {
             "title": "Anywhere",
-            "path": "/live/",
+            "href": "/live/",
             "automation-id": "ftr-anywhere"
           },
           {
             "title": "Cleveland",
-            "path": "/cleveland/",
+            "href": "/cleveland/",
             "automation-id": "ftr-cleveland"
           },
           {
             "title": "Columbus",
-            "path": "/columbus/",
+            "href": "/columbus/",
             "automation-id": "ftr-columbus"
           },
           {
             "title": "Dayton",
-            "path": "/dayton/",
+            "href": "/dayton/",
             "automation-id": "ftr-dayton"
           }
         ]
@@ -97,17 +97,17 @@
   },
   {
     "title": "I’M IN Campaign",
-    "path": "http://imincampaign.net/",
+    "href": "http://imincampaign.net/",
     "automation-id": "ftr-header-im-in-campaign",
     "children": [
       {
         "title": "I'M IN questions",
-        "path": "mailto:campaign@crossroads.net",
+        "href": "mailto:campaign@crossroads.net",
         "automation-id": "ftr-im-in-questions"
       },
       {
         "title": "Campaign Status",
-        "path": "/leaveyourmark",
+        "href": "/leaveyourmark",
         "automation-id": "ftr-campaign-status"
       }
     ]
@@ -117,22 +117,22 @@
     "children": [
       {
         "title": "Prayer Requests",
-        "path": "/prayer/",
+        "href": "/prayer/",
         "automation-id": "ftr-prayer-requests"
       },
       {
         "title": "Share Your Story",
-        "path": "/shareyourstory/",
+        "href": "/shareyourstory/",
         "automation-id": "ftr-share-your-story"
       },
       {
         "title": "Contact Us",
-        "path": "/contactus/",
+        "href": "/contactus/",
         "automation-id": "ftr-contact-us"
       },
       {
         "title": "Privacy Policy",
-        "path": "/privacypolicy/",
+        "href": "/privacypolicy/",
         "automation-id": "ftr-privacy-policy"
       }
     ]
@@ -142,17 +142,17 @@
     "children": [
       {
         "title": "In The News",
-        "path": "/inthenews/",
+        "href": "/inthenews/",
         "automation-id": "ftr-in-the-news"
       },
       {
         "title": "Church Resources",
-        "path": "/churchresources/",
+        "href": "/churchresources/",
         "automation-id": "ftr-church-resources"
       },
       {
         "title": "Get the Crossroads App",
-        "path": "/app/",
+        "href": "/app/",
         "automation-id": "ftr-get-the-Crossroads-app"
       }
     ]
@@ -162,25 +162,25 @@
     "children": [
       {
         "title": "twitter account",
-        "path": "https://twitter.com/crdschurch/",
+        "href": "https://twitter.com/crdschurch/",
         "img": "//d1tmclqz61gqwd.cloudfront.net/images/twitter.svg",
         "automation-id": "ftr-twitter-account"
       },
       {
         "title": "facebook account",
-        "path": "https://www.facebook.com/crdschurch/?_rdr=p",
+        "href": "https://www.facebook.com/crdschurch/?_rdr=p",
         "img": "//d1tmclqz61gqwd.cloudfront.net/images/facebook.svg",
         "automation-id": "ftr-facebook-account"
       },
       {
         "title": "youtube account",
-        "path": "https://www.youtube.com/user/crdschurch",
+        "href": "https://www.youtube.com/user/crdschurch",
         "img": "//d1tmclqz61gqwd.cloudfront.net/images/youtube.svg",
         "automation-id": "ftr-youtube-account"
       },
       {
         "title": "instagram account",
-        "path": "https://www.instagram.com/crdschurch/",
+        "href": "https://www.instagram.com/crdschurch/",
         "img": "//d1tmclqz61gqwd.cloudfront.net/images/instagram.svg",
         "automation-id": "ftr-instagram-account"
       }

@@ -1,22 +1,22 @@
 [
   "Connect[Demo]",
   {
-    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=At%20Home%20Groups%3D&view=List%20View&my=0",
+    "href": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=At%20Home%20Groups%3D&view=List%20View&my=0",
     "data-automation-id": "sh-alt-home-groups",
     "title": "At Home Groups"
   },
   {
-    "path": "https://www.crossroads.net/onsitegroups/",
+    "href": "https://www.crossroads.net/onsitegroups/",
     "data-automation-id": "sh-onsite-groups",
     "title": "Onsite Groups"
   },
   {
-    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=Online%20Groups%3D&view=List%20View&my=0",
+    "href": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=Online%20Groups%3D&view=List%20View&my=0",
     "data-automation-id": "sh-online-groups",
     "title": "Online Groups"
   },
   {
-    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=People%20Near%20Me%3D&view=Map%20View&my=0",
+    "href": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=People%20Near%20Me%3D&view=Map%20View&my=0",
     "data-automation-id": "sh-people-near-me",
     "title": "People Near Me"
   }

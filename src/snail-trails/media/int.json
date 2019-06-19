@@ -1,37 +1,37 @@
 [
   "Media [Int]",
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-groups",
     "title": "Groups"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-camps",
     "title": "Camps"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-recent-messages",
     "title": "recent messages"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-undivided",
     "title": "Undivided"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-lorem",
     "title": "lorem"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-ipsum",
     "title": "ipsum"
   },
   {
-    "path": "#",
+    "href": "#",
     "data-automation-id": "sh-subscribe",
     "title": "Subscribe"
   }

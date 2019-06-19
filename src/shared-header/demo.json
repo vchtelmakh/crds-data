@@ -15,7 +15,7 @@
         [
           {
             "title": "All Media",
-            "path": "/media",
+            "href": "/media",
             "top_level": true,
             "automation-id": "sh-all-media"
           }
@@ -24,27 +24,27 @@
         [
           {
             "title": "Articles",
-            "path": "/media/articles",
+            "href": "/media/articles",
             "automation-id": "sh-articles"
           },
           {
             "title": "Music",
-            "path": "/media/music",
+            "href": "/media/music",
             "automation-id": "sh-music"
           },
           {
             "title": "Podcasts",
-            "path": "/media/podcasts",
+            "href": "/media/podcasts",
             "automation-id": "sh-podcasts"
           },
           {
             "title": "Series",
-            "path": "/media/series",
+            "href": "/media/series",
             "automation-id": "sh-series"
           },
           {
             "title": "Videos",
-            "path": "/media/videos",
+            "href": "/media/videos",
             "automation-id": "sh-videos"
           }
         ],
@@ -52,22 +52,22 @@
         [
           {
             "title": "Culture",
-            "path": "/media/topics/culture",
+            "href": "/media/topics/culture",
             "automation-id": "sh-culture"
           },
           {
             "title": "Self",
-            "path": "/media/topics/self",
+            "href": "/media/topics/self",
             "automation-id": "sh-self"
           },
           {
             "title": "Work",
-            "path": "/media/topics/work",
+            "href": "/media/topics/work",
             "automation-id": "sh-work"
           },
           {
             "title": "Money",
-            "path": "/media/topics/money",
+            "href": "/media/topics/money",
             "automation-id": "sh-money"
           }
         ]
@@ -82,12 +82,12 @@
         [
           {
             "title": "Groups",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-connect-groups"
           },
           {
             "title": "See who is nearby",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-connect-see-who-is-nearby"
           }
         ],
@@ -95,17 +95,17 @@
         [
           {
             "title": "Man Camp",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-camps-man-camp"
           },
           {
             "title": "Woman Camp",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-camps-woman-camp"
           },
           {
             "title": "Couples Camp",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-camps-couples-camp"
           }
         ],
@@ -113,22 +113,22 @@
         [
           {
             "title": "Go",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-serve-go"
           },
           {
             "title": "Reachout",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-serve-reachout"
           },
           {
             "title": "Community Care",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-serve-community-care"
           },
           {
             "title": "All service opportunities",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-serve-all-service-opportunities"
           }
         ],
@@ -136,12 +136,12 @@
         [
           {
             "title": "Kids' Club",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-kids-kids-club"
           },
           {
             "title": "Students 6-12th",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-kids-students-612th"
           }
         ]
@@ -156,13 +156,13 @@
         [
           {
             "title": "All Locations",
-            "path": "#",
+            "href": "#",
             "top_level": true,
             "automation-id": "sh-all-locations"
           },
           {
             "title": "Crossroads Anywhere",
-            "path": "#",
+            "href": "#",
             "top_level": true,
             "automation-id": "sh-crossroads-anywhere"
           }
@@ -171,37 +171,37 @@
         [
           {
             "title": "East Side",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Florence",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Mason",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-mason"
           },
           {
             "title": "Oakley",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-oakely"
           },
           {
             "title": "Oxford",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-oxford"
           },
           {
             "title": "Uptown",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-uptown"
           },
           {
             "title": "West Side",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-west-side"
           }
         ],
@@ -209,22 +209,22 @@
         [
           {
             "title": "Lexington",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-lexington"
           },
           {
             "title": "Downtown Lexington",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-downtown-lexington"
           },
           {
             "title": "Georgetown",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-georgetown"
           },
           {
             "title": "Dayton",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-dayton"
           }
         ],
@@ -232,12 +232,12 @@
         [
           {
             "title": "Columbus",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-columbus"
           },
           {
             "title": "Dayton",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-more-dayton"
           }
         ],
@@ -245,37 +245,37 @@
         [
           {
             "title": "Blackburn Correctional Complex",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-blckburn-correctional-complex"
           },
           {
             "title": "Dayton Correctional Institution",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-dayton-correctional-institution"
           },
           {
             "title": "Lebanon Correctional Institution",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-lebanon-correctional-institution"
           },
           {
             "title": "London Correctional Institution",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-london-correctional-institution"
           },
           {
             "title": "Marion Correctional Institution",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-marion-correctional-institution"
           },
           {
             "title": "Ohio Reformatory for Women",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-ohio-reformatory-for-women"
           },
           {
             "title": "Warren Correctional Institution",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-location-warren-correctional-institution"
           }
         ]
@@ -290,12 +290,12 @@
         [
           {
             "title": "Counselors",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-counselors"
           },
           {
             "title": "Prayer",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-counselors"
           }
         ],
@@ -303,17 +303,17 @@
         [
           {
             "title": "Baptism",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-baptism"
           },
           {
             "title": "Weddings",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-weddings"
           },
           {
             "title": "Funerals",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-funerals"
           }
         ],
@@ -321,22 +321,22 @@
         [
           {
             "title": "Staff Contacts",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-staff-contacts"
           },
           {
             "title": "Ask a Question",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-ask-a-question"
           },
           {
             "title": "Request Prayer",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-request-prayer"
           },
           {
             "title": "Jobs",
-            "path": "#",
+            "href": "#",
             "automation-id": "sh-support-jobs"
           }
         ]
@@ -351,13 +351,13 @@
       [
         {
           "title": "Give Now",
-          "path": "",
+          "href": "",
           "top_level": true,
           "automation-id": "sh-give-now"
         },
         {
           "title": "My giving",
-          "path": "",
+          "href": "",
           "top_level": true,
           "automation-id": "sh-my-giving"
         }
@@ -366,13 +366,13 @@
       [
         {
           "title": "Why Give",
-          "path": "",
+          "href": "",
           "top_level": true,
           "automation-id": "sh-why-give"
         },
         {
           "title": "Other Ways",
-          "path": "",
+          "href": "",
           "top_level": true,
           "automation-id": "sh-other-ways"
         }
