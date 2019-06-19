@@ -1,63 +1,23 @@
 [
-  "Watch, Listen, Read [Prod]",
+  "Connect[Prod]",
   {
-    "path": "https://www.crossroads.net/media",
-    "data-automation-id": "sh-all-media",
-    "title": "All Media"
+    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=At%20Home%20Groups%3D&view=List%20View&my=0",
+    "data-automation-id": "sh-alt-home-groups",
+    "title": "At Home Groups"
   },
   {
-    "path": "https://www.crossroads.net/media/topics/culture",
-    "data-automation-id": "sh-culture",
-    "title": "Culture"
+    "path": "https://www.crossroads.net/onsitegroups/",
+    "data-automation-id": "sh-onsite-groups",
+    "title": "Onsite Groups"
   },
   {
-    "path": "https://www.crossroads.net/media/topics/self",
-    "data-automation-id": "sh-self",
-    "title": "Self"
+    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=Online%20Groups%3D&view=List%20View&my=0",
+    "data-automation-id": "sh-online-groups",
+    "title": "Online Groups"
   },
   {
-    "path": "https://www.crossroads.net/media/topics/work",
-    "data-automation-id": "sh-work",
-    "title": "Work"
-  },
-  {
-    "path": "https://www.crossroads.net/media/topics/money",
-    "data-automation-id": "sh-money",
-    "title": "Money"
-  },
-  {
-    "path": "https://www.crossroads.net/media/topics/relationships",
-    "data-automation-id": "sh-relationships",
-    "title": "Relationships"
-  },
-  {
-    "path": "https://www.crossroads.net/media/articles",
-    "data-automation-id": "sh-articles",
-    "title": "Articles"
-  },
-  {
-    "path": "https://www.crossroads.net/media/music",
-    "data-automation-id": "sh-music",
-    "title": "Music"
-  },
-  {
-    "path": "https://www.crossroads.net/media/podcasts",
-    "data-automation-id": "sh-podcasts",
-    "title": "Podcasts"
-  },
-  {
-    "path": "https://www.crossroads.net/media/series",
-    "data-automation-id": "sh-series",
-    "title": "Series"
-  },
-  {
-    "path": "https://www.crossroads.net/media/videos",
-    "data-automation-id": "sh-videos",
-    "title": "Videos"
-  },
-  {
-    "path": "#",
-    "data-automation-id": "sh-subscribe",
-    "title": "Subscribe"
+    "path": "https://www.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=People%20Near%20Me%3D&view=Map%20View&my=0",
+    "data-automation-id": "sh-people-near-me",
+    "title": "People Near Me"
   }
 ]
