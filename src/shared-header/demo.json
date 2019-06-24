@@ -1,9 +1,9 @@
 {
   "config": {
-    "mp_access_token_cookie": "intsessionId",
-    "mp_refresh_token_cookie": "intrefreshToken",
-    "okta_client_id": "0oahgpg7elMxVJedi0h7",
-    "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
+    "mp_access_token_cookie": "sessionId",
+    "mp_refresh_token_cookie": "refreshToken",
+    "okta_client_id": "0oani5vqrf3EDpMCW356",
+    "okta_issuer": "https://crossroads.okta.com/oauth2/default"
   },
   "promos": "{{{ promos.demo }}}",
   "nav": [
