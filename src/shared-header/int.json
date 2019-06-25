@@ -399,7 +399,7 @@
       [
         {
           "title": "Give now",
-          "href": "https://pushpay.com/g/crossroads",
+          "href": "https://sandbox.pushpay.io/g/crossroadscincinnati",
           "top_level": true,
           "automation-id": "sh-give-now"
         },
@@ -456,7 +456,7 @@
           "href": "https://int.crossroads.net/mycamps"
         },
         {
-          "title": "Sign up to server",
+          "title": "Sign up to serve",
           "automation-id": "sh-sign-up-to-serve",
           "href": "https://serve.crossroads.net/groups"
         },
