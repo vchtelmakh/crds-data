@@ -166,7 +166,7 @@
         "Events",
         [
           {
-            "title": "Event Checkin",
+            "title": "Event Check in",
             "href": "https://event-checkin.crossroads.net/events",
             "automation-id": "sh-event-checkin"
           },
@@ -439,7 +439,7 @@
         {
           "title": "Giving",
           "automation-id": "sh-giving",
-          "href": "https://profile.crossroads.net/giving/history"
+          "href": "https://sandbox.pushpay.io/g/crossroadscincinnati"
         },
         {
           "sign-out": true,
