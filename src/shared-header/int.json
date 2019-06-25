@@ -167,7 +167,7 @@
         [
           {
             "title": "Event Check in",
-            "href": "https://event-checkin.crossroads.net/events",
+            "href": "https://development.event-checkin.crossroads.net/",
             "automation-id": "sh-event-checkin"
           },
           {
@@ -458,7 +458,7 @@
         {
           "title": "Sign up to serve",
           "automation-id": "sh-sign-up-to-serve",
-          "href": "https://serve.crossroads.net/groups"
+          "href": "https://development.serve.crossroads.net/"
         },
         {
           "title": "My groups",
