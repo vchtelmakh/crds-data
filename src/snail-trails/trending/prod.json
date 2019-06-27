@@ -7,29 +7,24 @@
     ],
     [
       {
+        "href": "https://www.crossroads.net/locations/",
+        "data-automation-id": "sh-locations",
+        "title": "Locations"
+      },
+      {
+        "href": "https://www.crossroads.net/get-connected/",
+        "data-automation-id": "sh-get-connected",
+        "title": "Get Connected"
+      },
+      {
         "href": "https://www.crossroads.net/groups/",
         "data-automation-id": "sh-groups",
         "title": "Groups"
       },
       {
-        "href": "https://www.crossroads.net/camps/",
-        "data-automation-id": "sh-camps",
-        "title": "Camps"
-      },
-      {
-        "href": "https://www.crossroads.net/media/series/how-it-ends-spoiler-its-amazing/how-it-ends-week-2-real-justice",
-        "data-automation-id": "sh-recent-messages",
-        "title": "Recent Messages"
-      },
-      {
-        "href": "https://www.crossroads.net/undivided/",
-        "data-automation-id": "sh-undivided",
-        "title": "Undivided"
-      },
-      {
-        "href": "https://www.crossroads.net/connect",
-        "data-automation-id": "sh-connect-with-people-in-your-area",
-        "title": "Connect with people in your area"
+        "href": "https://www.crossroads.net/media/series",
+        "data-automation-id": "sh-series",
+        "title": "Recent messages"
       }
     ]
   ]
