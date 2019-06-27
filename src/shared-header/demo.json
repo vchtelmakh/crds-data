@@ -167,7 +167,7 @@
         [
           {
             "title": "Event Check in",
-            "href": "https://development.event-checkin.crossroads.net/",
+            "href": "https://release.event-checkin.crossroads.net/",
             "automation-id": "sh-event-checkin"
           },
           {
@@ -476,7 +476,7 @@
         {
           "title": "Event check in",
           "automation-id": "sh-event-check-in",
-          "href": "https://development.event-checkin.crossroads.net/"
+          "href": "https://release.event-checkin.crossroads.net/"
         },
         {
           "title": "Childcare (For events)",
