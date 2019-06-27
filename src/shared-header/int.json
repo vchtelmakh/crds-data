@@ -437,9 +437,9 @@
           "href": "https://int.crossroads.net/profile/personal"
         },
         {
-          "title": "Giving",
+          "title": "My Giving",
           "automation-id": "sh-giving",
-          "href": "https://sandbox.pushpay.io/g/crossroadscincinnati"
+          "href": "https://int.crossroads.net/me/giving"
         },
         {
           "sign-out": true,
