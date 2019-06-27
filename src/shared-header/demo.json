@@ -432,7 +432,7 @@
     "children": [
       [
         {
-          "title": "My account",
+          "title": "My profile",
           "automation-id": "sh-my-accounts",
           "href": "https://demo.crossroads.net/profile/personal"
         },
