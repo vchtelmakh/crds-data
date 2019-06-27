@@ -65,6 +65,14 @@
         "data-automation-id": "sh-videos",
         "title": "Videos"
       }
+    ],
+    [
+      {
+        "href": "https://deploy-preview-715--crds-mediaint.netlify.com/hubspot-subscribe-form-embed/",
+        "data-automation-id": "sh-media-subscribe",
+        "subscribe": "true",
+        "title": "Subscribe"
+      }
     ]
   ]
 }
