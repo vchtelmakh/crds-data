@@ -1,21 +1,21 @@
 {
   "config": {
-    "mp_access_token_cookie": "sessionId",
-    "mp_refresh_token_cookie": "refreshToken",
-    "okta_client_id": "0oani5vqrf3EDpMCW356",
-    "okta_issuer": "https://crossroads.okta.com/oauth2/default"
+    "mp_access_token_cookie": "intsessionId",
+    "mp_refresh_token_cookie": "intrefreshToken",
+    "okta_client_id": "0oahgpg7elMxVJedi0h7",
+    "okta_issuer": "https://crossroads.oktapreview.com/oauth2/default"
   },
-  "promos": "{{{ promos.demo }}}",
+  "promos": "{{{ promos.int }}}",
   "nav": [
     {
-      "title": "Watch, Listen, Read [demo]",
+      "title": "Watch, Listen, Read [Int]",
       "description": "Videos, music, articles and podcasts",
       "background": "//crds-media.imgix.net/...",
       "children": [
         [
           {
             "title": "All Media",
-            "href": "/media",
+            "href": "https://demo.crossroads.net/media",
             "top_level": true,
             "automation-id": "sh-all-media"
           }
@@ -24,27 +24,27 @@
         [
           {
             "title": "Articles",
-            "href": "/media/articles",
+            "href": "https://demo.crossroads.net/media/articles",
             "automation-id": "sh-articles"
           },
           {
             "title": "Music",
-            "href": "/media/music",
+            "href": "https://demo.crossroads.net/media/music",
             "automation-id": "sh-music"
           },
           {
             "title": "Podcasts",
-            "href": "/media/podcasts",
+            "href": "https://demo.crossroads.net/media/podcasts",
             "automation-id": "sh-podcasts"
           },
           {
             "title": "Series",
-            "href": "/media/series",
+            "href": "https://demo.crossroads.net/media/series",
             "automation-id": "sh-series"
           },
           {
             "title": "Videos",
-            "href": "/media/videos",
+            "href": "https://demo.crossroads.net/media/videos",
             "automation-id": "sh-videos"
           }
         ],
@@ -52,97 +52,146 @@
         [
           {
             "title": "Culture",
-            "href": "/media/topics/culture",
+            "href": "https://demo.crossroads.net/media/topics/culture",
             "automation-id": "sh-culture"
           },
           {
             "title": "Self",
-            "href": "/media/topics/self",
+            "href": "https://demo.crossroads.net/media/topics/self",
             "automation-id": "sh-self"
           },
           {
             "title": "Work",
-            "href": "/media/topics/work",
+            "href": "https://demo.crossroads.net/media/topics/work",
             "automation-id": "sh-work"
           },
           {
             "title": "Money",
-            "href": "/media/topics/money",
+            "href": "https://demo.crossroads.net/media/topics/money",
             "automation-id": "sh-money"
+          },
+          {
+            "title": "Relationships",
+            "href": "https://demo.crossroads.net/media/topics/relationships",
+            "automation-id": "sh-relationships"
           }
         ]
       ]
     },
     {
-      "title": "Find Community",
+      "title": "Get Connected",
       "description": "Groups, camps, serve locally and globally, kids",
       "background": "//crds-media.imgix.net/...",
       "children": [
-        "Connect",
         [
           {
-            "title": "Groups",
-            "href": "#",
+            "title": "Ways to get connected",
+            "href": "https://demo.crossroads.net/get-connected",
+            "top_level": true,
+            "automation-id": "sh-get-connected"
+          }
+        ],
+        "Relationships",
+        [
+          {
+            "title": "All Groups",
+            "href": "https://demo.crossroads.net/groups",
             "automation-id": "sh-connect-groups"
           },
           {
-            "title": "See who is nearby",
-            "href": "#",
-            "automation-id": "sh-connect-see-who-is-nearby"
+            "title": "My Groups",
+            "href": "https://demo.crossroads.net/groups/search/my",
+            "automation-id": "sh-my-groups"
+          },
+          {
+            "title": "People near me",
+            "href": "https://demo.crossroads.net/connect/?filters=At%20Home%20Groups%3D&my=0",
+            "automation-id": "sh-connect-people-near-me"
           }
         ],
         "Camps",
         [
           {
+            "title": "All Camps",
+            "href": "https://demo.crossroads.net/camps",
+            "automation-id": "sh-camps"
+          },
+          {
             "title": "Man Camp",
-            "href": "#",
+            "href": "https://demo.crossroads.net/mancamp",
             "automation-id": "sh-camps-man-camp"
           },
           {
             "title": "Woman Camp",
-            "href": "#",
+            "href": "https://demo.crossroads.net/womancamp",
             "automation-id": "sh-camps-woman-camp"
           },
           {
             "title": "Couples Camp",
-            "href": "#",
+            "href": "https://demo.crossroads.net/couplescamp",
             "automation-id": "sh-camps-couples-camp"
           }
         ],
-        "Serve",
+        "Trips",
         [
           {
-            "title": "Go",
-            "href": "#",
-            "automation-id": "sh-serve-go"
+            "title": "All Trips",
+            "href": "https://demo.crossroads.net/reachout/go",
+            "automation-id": "sh-trips-all"
           },
           {
-            "title": "Reachout",
-            "href": "#",
-            "automation-id": "sh-serve-reachout"
+            "title": "My Trips",
+            "href": "https://demo.crossroads.net/trips/mytrips",
+            "automation-id": "sh-my-trips"
+          }
+        ],
+        "Volunteer",
+        [
+          {
+            "title": "Volunteer Opportunities",
+            "href": "https://demo.crossroads.net/volunteer",
+            "automation-id": "sh-volunteer"
           },
           {
-            "title": "Community Care",
-            "href": "#",
-            "automation-id": "sh-serve-community-care"
+            "title": "Sign up to Volunteer",
+            "href": "https://demo.crossroads.net/serve-signup",
+            "automation-id": "sh-sign-up-to-serve"
           },
           {
-            "title": "All service opportunities",
-            "href": "#",
-            "automation-id": "sh-serve-all-service-opportunities"
+            "title": "Community Serving",
+            "href": "https://demo.crossroads.net/reachout/local",
+            "automation-id": "sh-reachout-local"
+          }
+        ],
+        "Events",
+        [
+          {
+            "title": "Event Check in",
+            "href": "https://development.event-checkin.crossroads.net/",
+            "automation-id": "sh-event-checkin"
+          },
+          {
+            "title": "Childcare (for events)",
+            "href": "https://demo.crossroads.net/childcare",
+            "automation-id": "sh-event-childcare"
           }
         ],
         "Kids",
         [
           {
             "title": "Kids' Club",
-            "href": "#",
+            "href": "https://crossroadskidsclub.net/",
             "automation-id": "sh-kids-kids-club"
           },
           {
-            "title": "Students 6-12th",
-            "href": "#",
-            "automation-id": "sh-kids-students-612th"
+            "title": "Students 6-8th",
+            "href": "https://demo.crossroads.net/middleschool",
+            "automation-id": "sh-kids-students-6-8th"
+          },
+          {
+            "title": "Students 9-12th",
+            "href": "https://demo.crossroads.net/highschool",
+            "automation-id": "sh-kids-students-6-12th"
           }
         ]
       ]
@@ -156,13 +205,13 @@
         [
           {
             "title": "All Locations",
-            "href": "#",
+            "href": "https://demo.crossroads.net/locations",
             "top_level": true,
             "automation-id": "sh-all-locations"
           },
           {
             "title": "Crossroads Anywhere",
-            "href": "#",
+            "href": "https://demo.crossroads.net/live",
             "top_level": true,
             "automation-id": "sh-crossroads-anywhere"
           }
@@ -171,37 +220,37 @@
         [
           {
             "title": "East Side",
-            "href": "#",
+            "href": "https://demo.crossroads.net/eastside",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Florence",
-            "href": "#",
+            "href": "https://demo.crossroads.net/florence",
             "automation-id": "sh-location-east-side"
           },
           {
             "title": "Mason",
-            "href": "#",
+            "href": "https://demo.crossroads.net/mason",
             "automation-id": "sh-location-mason"
           },
           {
             "title": "Oakley",
-            "href": "#",
+            "href": "https://demo.crossroads.net/oakley",
             "automation-id": "sh-location-oakely"
           },
           {
             "title": "Oxford",
-            "href": "#",
+            "href": "https://demo.crossroads.net/oxford",
             "automation-id": "sh-location-oxford"
           },
           {
             "title": "Uptown",
-            "href": "#",
+            "href": "https://demo.crossroads.net/uptown",
             "automation-id": "sh-location-uptown"
           },
           {
             "title": "West Side",
-            "href": "#",
+            "href": "https://demo.crossroads.net/westside",
             "automation-id": "sh-location-west-side"
           }
         ],
@@ -209,35 +258,35 @@
         [
           {
             "title": "Lexington",
-            "href": "#",
+            "href": "https://demo.crossroads.net/lexington",
             "automation-id": "sh-location-lexington"
           },
           {
             "title": "Downtown Lexington",
-            "href": "#",
+            "href": "https://demo.crossroads.net/downtown",
             "automation-id": "sh-location-downtown-lexington"
           },
           {
             "title": "Georgetown",
-            "href": "#",
+            "href": "https://demo.crossroads.net/georgetown",
             "automation-id": "sh-location-georgetown"
           },
           {
-            "title": "Dayton",
-            "href": "#",
-            "automation-id": "sh-location-dayton"
+            "title": "Richmond",
+            "href": "https://demo.crossroads.net/richmond",
+            "automation-id": "sh-location-richmond"
           }
         ],
         "More in Ohio",
         [
           {
             "title": "Columbus",
-            "href": "#",
+            "href": "https://demo.crossroads.net/columbus",
             "automation-id": "sh-location-columbus"
           },
           {
             "title": "Dayton",
-            "href": "#",
+            "href": "https://demo.crossroads.net/dayton",
             "automation-id": "sh-location-more-dayton"
           }
         ],
@@ -245,37 +294,37 @@
         [
           {
             "title": "Blackburn Correctional Complex",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-blckburn-correctional-complex"
           },
           {
             "title": "Dayton Correctional Institution",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-dayton-correctional-institution"
           },
           {
             "title": "Lebanon Correctional Institution",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-lebanon-correctional-institution"
           },
           {
             "title": "London Correctional Institution",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-london-correctional-institution"
           },
           {
             "title": "Marion Correctional Institution",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-marion-correctional-institution"
           },
           {
             "title": "Ohio Reformatory for Women",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-ohio-reformatory-for-women"
           },
           {
             "title": "Warren Correctional Institution",
-            "href": "#",
+            "href": "https://demo.crossroads.net/reachout/local/prison-ministry",
             "automation-id": "sh-location-warren-correctional-institution"
           }
         ]
@@ -290,12 +339,12 @@
         [
           {
             "title": "Counselors",
-            "href": "#",
+            "href": "https://demo.crossroads.net/care/counselors/",
             "automation-id": "sh-support-counselors"
           },
           {
             "title": "Prayer",
-            "href": "#",
+            "href": "https://demo.crossroads.net/prayer",
             "automation-id": "sh-support-counselors"
           }
         ],
@@ -303,17 +352,17 @@
         [
           {
             "title": "Baptism",
-            "href": "#",
+            "href": "https://demo.crossroads.net/baptism",
             "automation-id": "sh-support-baptism"
           },
           {
             "title": "Weddings",
-            "href": "#",
+            "href": "https://demo.crossroads.net/care/weddings",
             "automation-id": "sh-support-weddings"
           },
           {
             "title": "Funerals",
-            "href": "#",
+            "href": "https://demo.crossroads.net/care/funerals",
             "automation-id": "sh-support-funerals"
           }
         ],
@@ -321,22 +370,22 @@
         [
           {
             "title": "Staff Contacts",
-            "href": "#",
+            "href": "https://demo.crossroads.net/staffcontacts",
             "automation-id": "sh-support-staff-contacts"
           },
           {
             "title": "Ask a Question",
-            "href": "#",
+            "href": "https://demo.crossroads.net/contactus",
             "automation-id": "sh-support-ask-a-question"
           },
           {
             "title": "Request Prayer",
-            "href": "#",
+            "href": "https://demo.crossroads.net/prayer",
             "automation-id": "sh-support-request-prayer"
           },
           {
             "title": "Jobs",
-            "href": "#",
+            "href": "https://demo.crossroads.net/jobs",
             "automation-id": "sh-support-jobs"
           }
         ]
@@ -349,14 +398,14 @@
     "children": [
       [
         {
-          "title": "Give Now",
-          "href": "",
+          "title": "Give now",
+          "href": "https://sandbox.pushpay.io/g/crossroadscincinnati",
           "top_level": true,
           "automation-id": "sh-give-now"
         },
         {
           "title": "My giving",
-          "href": "",
+          "href": "https://demo.crossroads.net/me/giving",
           "top_level": true,
           "automation-id": "sh-my-giving"
         }
@@ -364,14 +413,14 @@
       "About giving",
       [
         {
-          "title": "Why Give",
-          "href": "",
+          "title": "Why give?",
+          "href": "https://demo.crossroads.net/giving",
           "top_level": true,
           "automation-id": "sh-why-give"
         },
         {
-          "title": "Other Ways",
-          "href": "",
+          "title": "Other ways to give",
+          "href": "https://demo.crossroads.net/giving/others",
           "top_level": true,
           "automation-id": "sh-other-ways"
         }
@@ -385,18 +434,18 @@
         {
           "title": "My account",
           "automation-id": "sh-my-accounts",
-          "path": "/profile/personal"
+          "href": "https://demo.crossroads.net/profile/personal"
         },
         {
-          "title": "Giving",
+          "title": "My Giving",
           "automation-id": "sh-giving",
-          "path": "/me/giving"
+          "href": "https://demo.crossroads.net/me/giving"
         },
         {
           "sign-out": true,
           "title": "Sign out",
           "automation-id": "sh-sign-out",
-          "path": "javascript:void(0)"
+          "href": "javascript:void(0)"
         }
       ],
       "Get Involved",
@@ -404,22 +453,22 @@
         {
           "title": "My student's camps",
           "automation-id": "sh-my-students-camps",
-          "path": "/mycamps"
+          "href": "https://demo.crossroads.net/mycamps"
         },
         {
-          "title": "Sign up to server",
+          "title": "Sign up to serve",
           "automation-id": "sh-sign-up-to-serve",
-          "path": "/serve/signup"
+          "href": "https://development.serve.crossroads.net/"
         },
         {
           "title": "My groups",
           "automation-id": "sh-my-groups",
-          "path": "/search/my"
+          "href": "https://demo.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=At%20Home%20Groups%3D&my=1"
         },
         {
           "title": "My trips",
           "automation-id": "sh-my-trips",
-          "path": "/mytrips"
+          "href": "https://demo.crossroads.net/trips/mytrips"
         }
       ],
       "Events",
@@ -427,12 +476,12 @@
         {
           "title": "Event check in",
           "automation-id": "sh-event-check-in",
-          "path": "/events"
+          "href": "https://development.event-checkin.crossroads.net/"
         },
         {
           "title": "Childcare (For events)",
           "automation-id": "sh-childcare",
-          "path": "/childcare"
+          "href": "https://demo.crossroads.net/childcare"
         }
       ]
     ]
