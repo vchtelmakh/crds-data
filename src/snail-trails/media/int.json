@@ -68,7 +68,7 @@
     ],
     [
       {
-        "href": "https://deploy-preview-715--crds-mediaint.netlify.com/hubspot-subscribe-form-embed/",
+        "src": "https://int.crossroads.net/hubspot-subscribe-form-embed/",
         "data-automation-id": "sh-media-subscribe",
         "subscribe": "true",
         "title": "Subscribe"
