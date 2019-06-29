@@ -68,7 +68,7 @@
     ],
     [
       {
-        "src": "https://int.crossroads.net/hubspot-subscribe-form-embed/",
+        "src": "https://int.crossroads.net/media/hubspot-subscribe-form-embed",
         "data-automation-id": "sh-media-subscribe",
         "subscribe": "true",
         "title": "Subscribe"
