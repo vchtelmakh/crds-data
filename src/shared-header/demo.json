@@ -105,7 +105,7 @@
           },
           {
             "title": "People near me",
-            "href": "https://demo.crossroads.net/connect/?lat=39&lng=-84.51&zoom=9&filters=People%20Near%20Me%3D&view=Map%20View&my=0",
+            "href": "https://demo.crossroads.net/connect/?filters=People%20Near%20Me%3D&view=Map%20View",
             "automation-id": "sh-connect-people-near-me"
           }
         ],
