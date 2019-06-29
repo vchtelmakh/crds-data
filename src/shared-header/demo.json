@@ -105,7 +105,7 @@
           },
           {
             "title": "People near me",
-            "href": "https://demo.crossroads.net/connect/?filters=At%20Home%20Groups%3D&my=0",
+            "href": "https://demo.crossroads.net/connect/?filters=People%20Near%20Me%3D&view=Map%20View",
             "automation-id": "sh-connect-people-near-me"
           }
         ],
