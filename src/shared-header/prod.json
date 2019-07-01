@@ -226,7 +226,7 @@
           {
             "title": "Florence",
             "href": "https://www.crossroads.net/florence",
-            "automation-id": "sh-location-east-side"
+            "automation-id": "sh-location-florence"
           },
           {
             "title": "Mason",
@@ -345,7 +345,7 @@
           {
             "title": "Prayer",
             "href": "https://www.crossroads.net/prayer",
-            "automation-id": "sh-support-counselors"
+            "automation-id": "sh-support-prayer"
           }
         ],
         "Life Events",
