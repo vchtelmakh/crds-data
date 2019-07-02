@@ -432,8 +432,8 @@
     "children": [
       [
         {
-          "title": "My account",
-          "automation-id": "sh-my-accounts",
+          "title": "My profile",
+          "automation-id": "sh-my-profile",
           "href": "https://int.crossroads.net/profile/personal"
         },
         {
