@@ -433,7 +433,7 @@
       [
         {
           "title": "My profile",
-          "automation-id": "sh-my-accounts",
+          "automation-id": "sh-my-profile",
           "href": "https://demo.crossroads.net/profile/personal"
         },
         {

@@ -1,7 +1,7 @@
 [
   {
     "title": "One Church, Many Locations [Int]",
-    "href": "/locations/",
+    "href": "https://int.crossroads.net/locations/",
     "automation-id": "ftr-one-church-many-locations",
     "children": [
       {
@@ -9,37 +9,37 @@
         "children": [
           {
             "title": "East Side",
-            "href": "/eastside/",
+            "href": "https://int.crossroads.net/eastside/",
             "automation-id": "ftr-east-side"
           },
           {
             "title": "Florence ",
-            "href": "/florence/",
+            "href": "https://int.crossroads.net/florence/",
             "automation-id": "ftr-florence"
           },
           {
             "title": "Mason ",
-            "href": "/mason/",
+            "href": "https://int.crossroads.net/mason/",
             "automation-id": "ftr-mason"
           },
           {
             "title": "Oakley",
-            "href": "/oakley/",
+            "href": "https://int.crossroads.net/oakley/",
             "automation-id": "ftr-oakley"
           },
           {
             "title": "Oxford ",
-            "href": "/oxford/",
+            "href": "https://int.crossroads.net/oxford/",
             "automation-id": "ftr-oxford"
           },
           {
             "title": "Uptown",
-            "href": "/uptown/",
+            "href": "https://int.crossroads.net/uptown/",
             "automation-id": "ftr-uptown"
           },
           {
             "title": "West Side",
-            "href": "/westside/",
+            "href": "https://int.crossroads.net/westside/",
             "automation-id": "ftr-west-side"
           }
         ]
@@ -49,22 +49,22 @@
         "children": [
           {
             "title": "Lexington",
-            "href": "/lexington/",
+            "href": "https://int.crossroads.net/lexington/",
             "automation-id": "ftr-lexington"
           },
           {
             "title": "Downtown Lexington",
-            "href": "/downtownlex/",
+            "href": "https://int.crossroads.net/downtownlex/",
             "automation-id": "ftr-downtown-lexington"
           },
           {
             "title": "Georgetown",
-            "href": "/georgetown/",
+            "href": "https://int.crossroads.net/georgetown/",
             "automation-id": "ftr-georgetown"
           },
           {
             "title": "Richmond",
-            "href": "/richmond/",
+            "href": "https://int.crossroads.net/richmond/",
             "automation-id": "ftr-richmond"
           }
         ]
@@ -73,22 +73,22 @@
         "children": [
           {
             "title": "Anywhere",
-            "href": "/live/",
+            "href": "https://int.crossroads.net/live/",
             "automation-id": "ftr-anywhere"
           },
           {
             "title": "Cleveland",
-            "href": "/cleveland/",
+            "href": "https://int.crossroads.net/cleveland/",
             "automation-id": "ftr-cleveland"
           },
           {
             "title": "Columbus",
-            "href": "/columbus/",
+            "href": "https://int.crossroads.net/columbus/",
             "automation-id": "ftr-columbus"
           },
           {
             "title": "Dayton",
-            "href": "/dayton/",
+            "href": "https://int.crossroads.net/dayton/",
             "automation-id": "ftr-dayton"
           }
         ]
@@ -107,7 +107,7 @@
       },
       {
         "title": "Campaign Status",
-        "href": "/leaveyourmark",
+        "href": "https://int.crossroads.net/leaveyourmark",
         "automation-id": "ftr-campaign-status"
       }
     ]
@@ -117,22 +117,22 @@
     "children": [
       {
         "title": "Prayer Requests",
-        "href": "/prayer/",
+        "href": "https://int.crossroads.net/prayer/",
         "automation-id": "ftr-prayer-requests"
       },
       {
         "title": "Share Your Story",
-        "href": "/shareyourstory/",
+        "href": "https://int.crossroads.net/shareyourstory/",
         "automation-id": "ftr-share-your-story"
       },
       {
         "title": "Contact Us",
-        "href": "/contactus/",
+        "href": "https://int.crossroads.net/contactus/",
         "automation-id": "ftr-contact-us"
       },
       {
         "title": "Privacy Policy",
-        "href": "/privacypolicy/",
+        "href": "https://int.crossroads.net/privacypolicy/",
         "automation-id": "ftr-privacy-policy"
       }
     ]
@@ -142,17 +142,17 @@
     "children": [
       {
         "title": "In The News",
-        "href": "/inthenews/",
+        "href": "https://int.crossroads.net/inthenews/",
         "automation-id": "ftr-in-the-news"
       },
       {
         "title": "Church Resources",
-        "href": "/churchresources/",
+        "href": "https://int.crossroads.net/churchresources/",
         "automation-id": "ftr-church-resources"
       },
       {
         "title": "Get the Crossroads App",
-        "href": "/app/",
+        "href": "https://int.crossroads.net/app/",
         "automation-id": "ftr-get-the-Crossroads-app"
       }
     ]
