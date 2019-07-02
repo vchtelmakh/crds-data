@@ -399,7 +399,7 @@
       [
         {
           "title": "Give now",
-          "href": "https://sandbox.pushpay.io/g/crossroadscincinnatilegacy",
+          "href": "https://sandbox.pushpay.io/g/crossroadscincinnati",
           "top_level": true,
           "automation-id": "sh-give-now"
         },
@@ -433,7 +433,7 @@
       [
         {
           "title": "My profile",
-          "automation-id": "sh-my-accounts",
+          "automation-id": "sh-my-profile",
           "href": "https://demo.crossroads.net/profile/personal"
         },
         {
