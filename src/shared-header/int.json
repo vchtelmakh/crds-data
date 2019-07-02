@@ -442,7 +442,6 @@
           "href": "https://int.crossroads.net/me/giving"
         },
         {
-          "sign-out": true,
           "title": "Sign out",
           "automation-id": "sh-sign-out",
           "href": "https://int.crossroads.net/signout"
