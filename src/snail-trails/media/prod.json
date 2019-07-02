@@ -65,6 +65,14 @@
         "data-automation-id": "sh-videos",
         "title": "Videos"
       }
+    ],
+    [
+      {
+        "src": "https://www.crossroads.net/media/hubspot-subscribe-form-embed",
+        "data-automation-id": "sh-media-subscribe",
+        "subscribe": "true",
+        "title": "Subscribe"
+      }
     ]
   ]
 }
