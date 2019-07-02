@@ -166,7 +166,7 @@
         "Events",
         [
           {
-            "title": "Event Checkin",
+            "title": "Event Check in",
             "href": "https://event-checkin.crossroads.net/events",
             "automation-id": "sh-event-checkin"
           },
@@ -420,7 +420,7 @@
         },
         {
           "title": "Other ways to give",
-          "href": "https://www.crossroads.net/giving/others",
+          "href": "https://www.crossroads.net/giving/#others",
           "top_level": true,
           "automation-id": "sh-other-ways"
         }
@@ -432,14 +432,14 @@
     "children": [
       [
         {
-          "title": "My account",
-          "automation-id": "sh-my-accounts",
+          "title": "My profile",
+          "automation-id": "sh-my-profile",
           "href": "https://www.crossroads.net/profile/personal"
         },
         {
-          "title": "Giving",
+          "title": "My Giving",
           "automation-id": "sh-giving",
-          "href": "https://profile.crossroads.net/giving/history"
+          "href": "https://www.crossroads.net/me/giving"
         },
         {
           "sign-out": true,
@@ -456,7 +456,7 @@
           "href": "https://www.crossroads.net/mycamps"
         },
         {
-          "title": "Sign up to server",
+          "title": "Sign up to serve",
           "automation-id": "sh-sign-up-to-serve",
           "href": "https://serve.crossroads.net/groups"
         },
