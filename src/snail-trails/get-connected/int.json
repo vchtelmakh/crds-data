@@ -1,0 +1,43 @@
+{
+  "nav": [
+    [
+      {
+        "title": ""
+      }
+    ],
+    [
+      {
+        "href": "https://int.crossroads.net/camps",
+        "data-automation-id": "sh-camps",
+        "title": "Camps"
+      }
+    ],
+    [
+      {
+        "href": "https://int.crossroads.net/connect/?filters=At%20Home%20Groups%3D&my=0",
+        "data-automation-id": "sh-groups",
+        "title": "Groups"
+      },
+      {
+        "href": "https://int.crossroads.net/reachout/go/",
+        "data-automation-id": "sh-trips",
+        "title": "Trips"
+      },
+      {
+        "href": "https://int.crossroads.net/volunteer",
+        "data-automation-id": "sh-volunteer-at-crossroads",
+        "title": "Volunteer at Crossroads"
+      },
+      {
+        "href": "https://int.crossroads.net/reachout/local/",
+        "data-automation-id": "sh-community-serving",
+        "title": "Community serving"
+      },
+      {
+        "href": "https://int.crossroads.net/connect/?filters=People%3D&view=Map%20View&my=0",
+        "data-automation-id": "sh-people",
+        "title": "People"
+      }
+    ]
+  ]
+}
