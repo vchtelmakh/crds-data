@@ -1,0 +1,78 @@
+{
+  "nav": [
+    [
+      {
+        "title": "Watch, Listen, Read"
+      }
+    ],
+    [
+      {
+        "href": "https://demo.crossroads.net/media",
+        "data-automation-id": "sh-all-media",
+        "title": "All Media"
+      }
+    ],
+    [
+      {
+        "href": "https://demo.crossroads.net/media/topics/culture",
+        "data-automation-id": "sh-culture",
+        "title": "Culture"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/topics/self",
+        "data-automation-id": "sh-self",
+        "title": "Self"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/topics/work",
+        "data-automation-id": "sh-work",
+        "title": "Work"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/topics/money",
+        "data-automation-id": "sh-money",
+        "title": "Money"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/topics/relationships",
+        "data-automation-id": "sh-relationships",
+        "title": "Relationships"
+      }
+    ],
+    [
+      {
+        "href": "https://demo.crossroads.net/media/articles",
+        "data-automation-id": "sh-articles",
+        "title": "Articles"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/music",
+        "data-automation-id": "sh-music",
+        "title": "Music"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/podcasts",
+        "data-automation-id": "sh-podcasts",
+        "title": "Podcasts"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/series",
+        "data-automation-id": "sh-series",
+        "title": "Series"
+      },
+      {
+        "href": "https://demo.crossroads.net/media/videos",
+        "data-automation-id": "sh-videos",
+        "title": "Videos"
+      }
+    ],
+    [
+      {
+        "src": "https://demo.crossroads.net/media/hubspot-subscribe-form-embed",
+        "data-automation-id": "sh-media-subscribe",
+        "subscribe": "true",
+        "title": "Subscribe"
+      }
+    ]
+  ]
+}
