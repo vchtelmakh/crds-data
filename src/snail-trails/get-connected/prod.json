@@ -2,41 +2,39 @@
   "nav": [
     [
       {
-        "title": ""
+        "title": "Get Connected"
       }
     ],
     [
       {
-        "href": "https://crossroads.net/camps",
-        "data-automation-id": "sh-camps",
-        "title": "Camps"
-      }
-    ],
-    [
+        "href": "https://www.crossroads.net/volunteer",
+        "data-automation-id": "sh-volunteer",
+        "title": "Volunteer"
+      },
       {
-        "href": "https://crossroads.net/connect/?filters=At%20Home%20Groups%3D&my=0",
+        "href": "https://www.crossroads.net/groups/",
         "data-automation-id": "sh-groups",
         "title": "Groups"
       },
       {
-        "href": "https://crossroads.net/reachout/go/",
+        "href": "https://www.crossroads.net/camps",
+        "data-automation-id": "sh-camps",
+        "title": "Camps"
+      },
+      {
+        "href": "https://www.crossroads.net/reachout/local/",
+        "data-automation-id": "sh-community-serving",
+        "title": "Community Serving"
+      },
+      {
+        "href": "https://www.crossroads.net/reachout/go/",
         "data-automation-id": "sh-trips",
         "title": "Trips"
       },
       {
-        "href": "https://crossroads.net/volunteer",
-        "data-automation-id": "sh-volunteer-at-crossroads",
-        "title": "Volunteer at Crossroads"
-      },
-      {
-        "href": "https://crossroads.net/reachout/local/",
-        "data-automation-id": "sh-community-serving",
-        "title": "Community serving"
-      },
-      {
-        "href": "https://crossroads.net/connect/?filters=People%3D&view=Map%20View&my=0",
-        "data-automation-id": "sh-people",
-        "title": "People"
+        "href": "https://www.crossroads.net/connect/?filters=People%20Near%20Me%3D&view=Map%20View",
+        "data-automation-id": "sh-find-people-near-you",
+        "title": "Find People Near You"
       }
     ]
   ]
