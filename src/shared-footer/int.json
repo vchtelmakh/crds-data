@@ -77,11 +77,6 @@
             "automation-id": "ftr-anywhere"
           },
           {
-            "title": "Cleveland",
-            "href": "https://int.crossroads.net/cleveland/",
-            "automation-id": "ftr-cleveland"
-          },
-          {
             "title": "Columbus",
             "href": "https://int.crossroads.net/columbus/",
             "automation-id": "ftr-columbus"
